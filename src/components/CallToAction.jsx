@@ -12,7 +12,7 @@ const Wrapper = styled.section`
   }
 
   .cta-content h2 {
-    ${tw`text-4xl font-medium text-center lg:text-left`}
+    ${tw`text-4xl lg:text-5xl font-medium text-center lg:text-left`}
   }
 
   &:before {
@@ -32,7 +32,7 @@ function CallToAction() {
     <Wrapper className="bg-main-red">
       <div className="container mx-auto">
         <div className="cta-content">
-          <div className="text-light-gray lg:max-w-md">
+          <div className="text-light-gray lg:max-w-xl">
             <h2>Simplify how your team works today.</h2>
           </div>
 
